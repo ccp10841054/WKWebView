@@ -1,0 +1,76 @@
+﻿body .custom_home{ background-color:#f7f7f7;}
+.custom_home .custom_header{ background-color:#fff;border-top:2px solid #25AE5F;border-bottom-color: #ccc; position:fixed;width:100%;top:0;left:0;height:2.8em; z-index:1000;}
+.custom_home .custom_footer{background-color:#25AE5F;border-top:1px solid #25AE5F;border-bottom-color: #eee; position:fixed;width:100%;bottom:0;left:0;height:2.8em; z-index:1000; cursor:pointer; line-height:2.8em; text-align:center;text-shadow:none;color:#fff; border-bottom:none;}
+.custom_home .custom_footer:active{ background-color:#089622;}
+.custom_home .code_box{ margin:3em 0; padding:0.5em;}
+.custom_home .custom_footer {}
+
+.custom_home .custom_header .custom_menu,.custom_home .custom_header .custom_back{ background-color:#fff; border-color:#fff;}
+
+#loadding_box{ background-color:#f5f5f5; position:fixed;width:100%;height:100%;top:0;left:0; z-index:1001; display:block;}
+#loadding_box div{padding:65px 5% 0 5%;position:fixed;top:50%;width:90%;height:90%;margin-top:-65px;background:url(images/loading.gif) center top no-repeat;/* background-size:60px 60px;*/ text-align:center; font-size:0.8em; color:#666;}
+#loadding_box .error{background:url(images/error.png) center top no-repeat;background-size: 60px 60px;}
+.for_name{ display:block; text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; font-size:0.8em; line-height:21px;}
+/* Navmenu */
+.jqm-navmenu-panel .ui-listview > li .ui-collapsible-heading {
+	margin: 0;
+}
+.jqm-navmenu-panel .ui-listview a.ui-btn{ text-align:center;}
+.jqm-navmenu-panel .ui-collapsible.ui-li-static {
+	padding: 0;
+	border: none !important;
+}
+.jqm-navmenu-panel .ui-listview .ui-listview .ui-btn {
+	padding-left: 1.5em;
+	color: #999;
+}
+.jqm-navmenu-panel .ui-listview .ui-listview .ui-btn.ui-btn-active {
+	color: #fff;
+}
+.jqm-navmenu-panel .ui-btn:after {
+	opacity: .4;text-align:center;
+	filter: Alpha(Opacity=40);
+}
+
+.jqm-navmenu-panel p{ font-size:0.8em;color:#666; text-align:center; padding:0.5em 0; margin:0; padding-top:60px; background:url(images/login_defaut.png) center top no-repeat; background-size:50px 50px;}
+
+#screen{ position:absolute;top:15px;left:15px;}
+#screen_1,#screen_2,#screen_3{display:none;position:absolute;top:0;left:0;z-index:999;width:100%;height:100%;}
+.selected1,.selected2,.selected3{position:absolute;opacity:0.3;}
+.selectedinfor1,.selectedinfor2,.selectedinfor3{position:absolute;color:#fff; line-height:18px; font-size:0.65em; text-shadow:none; padding:0 3px; text-align:right;}
+.selected1,.selectedinfor1{background-color:red;}
+.selected2,.selectedinfor2{background-color:yellow;}
+.selected3,.selectedinfor3{background-color:green;}
+.selectedinfor2{color:#333;}
+#regin_con{ margin-top:20px;}
+#regin_con a.aselected1{color:#fff;background-color:red; text-shadow:none;}
+
+#regin_con a.aselected2{color:#222;background-color:yellow; text-shadow:none; }
+
+#regin_con a.aselected3{color:#fff;background-color:green; text-shadow:none;}
+
+#choose_video_way a.aselected{ background-color:#e10304;border-color:#e10304;}
+#choose_video_way a.aselected span{color:#fff;background-color:#e10304; text-shadow:none; border-color:#e10304;}
+
+.drow_attetion{ clear:both; font-size:0.75em;color:#666;}
+
+.alert_bg{ background-color:#000; opacity:0.1; position:fixed;top:0;left:0;height:100%;width:100%; z-index:9999998}
+
+
+.rebootconyrolbg{position:fixed;width:100%;height:100%;z-index:10000002;top:0;left:0;background-color:#000;display:none;opacity:0.5;}
+.rebootconyrol{position:fixed;width:94%;min-height:120px;z-index:10000003;top:50%;left:3%;background-color:#fff;display:none; margin-top:-60px;border:3px solid #f5f5f5;}
+.rebootconyrol #reboot_worm,.rebootconyrol .message{display:block; border-bottom:1px solid #e10304; padding:8px; font-size:0.85em;}
+.rebootconyrol p{text-align:center;}
+.rebootconyrol p a{text-align:center;}
+
+
+.wifi_right{float: right;color:#CCC;line-height: 30px;}
+.wifi_right i{width:30px;height:30px; background:url(./images/wifi.png) no-repeat; float:right;}
+.wifi_right i._one{background-position:0 0;}
+.wifi_right i._one_lock{background-position:0 -30px;}
+.wifi_right i._two{background-position:-30px 0;}
+.wifi_right i._two_lock{background-position:-30px -30px;}
+.wifi_right i._three{background-position:-60px 0;}
+.wifi_right i._three_lock{background-position:-60px -30px;}
+.wifi_right i._full{background-position:-90px 0;}
+.wifi_right i._full_lock{background-position:-90px -30px;}
